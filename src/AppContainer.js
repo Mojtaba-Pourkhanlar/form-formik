@@ -2,7 +2,7 @@ import React from 'react'
 
 const AppContainer = () => {
   return (
-    <div>AppContainer</div>
+    <div className='text-danger'>AppContainer</div>
   )
 }
 
