@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import { ToastContainer } from "react-toastify";
+import { RegisterContainer } from "./frontEnd/components/RegisterContainer";
 
 const AppContainer = () => {
   return (
-    <div className='text-danger'>AppContainer</div>
-  )
-}
+    <>
+      <RegisterContainer />
+      <ToastContainer position="top-left" autoClose={3000} theme="dark" />
+    </>
+  );
+};
 
-export default AppContainer
+export default AppContainer;
